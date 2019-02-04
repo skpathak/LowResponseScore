@@ -1,0 +1,111 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+  border-radius: 15px;
+  border: 3px solid #73AD21;
+  /*background: #73AD21;*/
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+#panelhead2 {
+  /* Fade in while hovering */
+    color: #fff;
+    background: #400300;
+    padding: 1.1em 1.1em 1.0em 1.1em;
+    margin: 0 0 1.0em 0;
+    border-radius: 15px 50px;
+}
+#togglebutton {
+        background: #73AD21;
+        color: white;
+        font-size: 20px;
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+.navbar { 
+        background-color: #2d9a85;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+}
+
+.navbar-dropdown { 
+        background-color: #5dc2aa;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-size: 20px;
+        color: #e4e4e4;
+}
+
+.navbar-hover { 
+        background-color: #5dc2aa;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-size: 20px;
+        color: #e4e4e4;
+}
+
+.navbar-default .navbar-brand {
+        color: white;
+}
+
+
+.navbar-default .navbar-nav { 
+        background-color: #2d9a85; 
+        color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+        color: #e4e4e4;
+        background-color: #5dc2aa;
+}
+
+#img-id2{
+  position: fixed;
+  right: 10px;
+  top: 5px;
+}
